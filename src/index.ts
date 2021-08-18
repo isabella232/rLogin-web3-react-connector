@@ -1,3 +1,2 @@
-export class Template {
-  hello (): string { return 'RIF Web SDK Template' }
-}
+export { Web3ReactProvider } from './Web3ReactProvider'
+export { IWeb3ReactProvider } from './types'

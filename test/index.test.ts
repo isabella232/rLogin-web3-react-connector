@@ -1,8 +1,7 @@
-import { Template } from '../src'
+import { Web3ReactProvider } from '../src'
 
 describe('hello', () => {
   test('hello', () => {
-    const template = new Template()
-    expect(template.hello()).toBe('RIF Web SDK Template')
+    expect(Web3ReactProvider).toBeDefined()
   })
 })

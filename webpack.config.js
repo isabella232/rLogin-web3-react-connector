@@ -13,10 +13,15 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: ['.ts', '.js']
+    extensions: ['.ts', '.js'],
+    fallback: { "stream": require.resolve("stream-browserify") }
   },
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, 'dist')
+    path: path.resolve(__dirname, 'dist'),
+    libraryTarget: 'umd',
+    library: "rLoginWeb3ReactProvider",
+    umdNamedDefine: true,
+    globalObject: "this"
   }
 }
