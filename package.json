@@ -1,8 +1,9 @@
 {
   "name": "@rsksmart/rlogin-web3-react-connector",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Wrapper for rLogin to make easier integrations with web3-react apps",
   "main": "dist/bundle.js",
+  "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
