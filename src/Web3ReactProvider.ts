@@ -12,7 +12,7 @@ export class Web3ReactProvider extends AbstractConnector {
 
   public name: string
 
-  constructor(rLoginResponse: RLoginReponse) {
+  constructor (rLoginResponse: RLoginReponse) {
     const kwargs: AbstractConnectorArguments = {
       supportedChainIds: [30, 31]
     }
@@ -35,7 +35,7 @@ export class Web3ReactProvider extends AbstractConnector {
    * the rLogin popup
    * @returns ConnectorUpdate { provider, chainId, account }
    */
-  public async activate(): Promise<ConnectorUpdate> {
+  public async activate (): Promise<ConnectorUpdate> {
     // get account and chainId
     const promises: [Promise<string[]>, Promise<number>] = [
       this.provider.request({ method: 'eth_accounts' }),
@@ -56,35 +56,35 @@ export class Web3ReactProvider extends AbstractConnector {
     }))
   }
 
-  public getProvider() {
+  public getProvider () {
     return this.provider
   }
 
-  public getChainId(): Promise<number> {
+  public getChainId (): Promise<number> {
     return this.provider.request({ method: 'eth_chainId' }).then((hex: string) => parseInt(hex))
   }
 
-  public getAccount(): Promise<string> {
+  public getAccount (): Promise<string> {
     return this.provider.request({ method: 'eth_accounts' })
   }
 
-  public deactivate() {
+  public deactivate () {
     this.provider.removeListener('chainChanged', this.handleChainChanged)
     this.provider.removeListener('accountsChanged', this.handleAccountsChanged)
     this.provider.removeListener('close', this.close)
     this.provider.removeListener('networkChanged', this.handleNetworkChanged)
   }
 
-  public close() {
+  public close () {
     this.disconnect()
     this.emitDeactivate()
   }
 
-  handleChainChanged(chainId: string | number) {
+  handleChainChanged (chainId: string | number) {
     this.emitUpdate({ chainId, provider: this.provider })
   }
 
-  handleAccountsChanged(accounts: string[]) {
+  handleAccountsChanged (accounts: string[]) {
     if (accounts.length === 0) {
       this.emitDeactivate()
     } else {
@@ -92,7 +92,7 @@ export class Web3ReactProvider extends AbstractConnector {
     }
   }
 
-  handleNetworkChanged(networkId: string | number) {
+  handleNetworkChanged (networkId: string | number) {
     this.emitUpdate({ chainId: networkId, provider: this.provider })
   }
 }
