@@ -1,31 +1,29 @@
 <p align="middle">
   <img src="https://www.rifos.org/assets/img/logo.svg" alt="logo" height="100" >
 </p>
-<h3 align="middle"><code>@rsksmart/rif-web-sdk-template</code></h3>
+<h3 align="middle"><code>@rsksmart/rlogin-web3-react-connector</code></h3>
 <p align="middle">
-  RIF Web SDK Template
+  Wrapper for rLogin to make easier integrations with web3-react apps
 </p>
 <p align="middle">
-  <a href="https://github.com/rsksmart/rif-web-sdk-template/actions/workflows/ci.yml" alt="ci">
-    <img src="https://github.com/rsksmart/rif-web-sdk-template/actions/workflows/ci.yml/badge.svg" alt="ci" />
+  <a href="https://github.com/rsksmart/rlogin-web3-react-connector/actions/workflows/ci.yml" alt="ci">
+    <img src="https://github.com/rsksmart/rlogin-web3-react-connector/actions/workflows/ci.yml/badge.svg" alt="ci" />
   </a>
   <a href="https://developers.rsk.co/rif/templates/">
     <img src="https://img.shields.io/badge/-docs-brightgreen" alt="docs" />
   </a>
-  <a href="https://lgtm.com/projects/g/rsksmart/rif-web-sdk-template/context:javascript">
-    <img src="https://img.shields.io/lgtm/grade/javascript/github/rsksmart/rif-web-sdk-template" />
+  <a href="https://lgtm.com/projects/g/rsksmart/rlogin-web3-react-connector/context:javascript">
+    <img src="https://img.shields.io/lgtm/grade/javascript/github/rsksmart/rlogin-web3-react-connector" />
   </a>
-  <a href='https://coveralls.io/github/rsksmart/rif-web-sdk-template?branch=main'>
-    <img src='https://coveralls.io/repos/github/rsksmart/rif-web-sdk-template/badge.svg?branch=main' alt='Coverage Status' />
+  <a href='https://coveralls.io/github/rsksmart/rlogin-web3-react-connector?branch=main'>
+    <img src='https://coveralls.io/repos/github/rsksmart/rlogin-web3-react-connector/badge.svg?branch=main' alt='Coverage Status' />
   </a>
   <a href="https://hits.seeyoufarm.com">
-    <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Frsksmart%2Frif-web-sdk-template&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/>
+    <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Frsksmart%2Frlogin-web3-react-connector&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/>
   </a>
-  <!--
-    <a href="https://badge.fury.io/js/%40rsksmart%2Frif-web-sdk-template">
-      <img src="https://badge.fury.io/js/%40rsksmart%2Frif-web-sdk-template.svg" alt="npm" />
-    </a>
-  -->
+  <a href="https://badge.fury.io/js/%40rsksmart%2Frlogin-web3-react-connector">
+    <img src="https://badge.fury.io/js/%40rsksmart%2Frlogin-web3-react-connector.svg" alt="npm" />
+  </a>
 </p>
 
 ## Features

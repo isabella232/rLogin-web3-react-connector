@@ -1,7 +1,7 @@
 {
-  "name": "@rsksmart/rif-web-sdk-template",
+  "name": "@rsksmart/rlogin-web3-react-connector",
   "version": "1.0.0",
-  "description": "RIF Web SDK Template",
+  "description": "Wrapper for rLogin to make easier integrations with web3-react apps",
   "main": "dist/bundle.js",
   "files": [
     "dist"
