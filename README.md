@@ -9,9 +9,6 @@
   <a href="https://github.com/rsksmart/rLogin-web3-react-connector/actions/workflows/ci.yml" alt="ci">
     <img src="https://github.com/rsksmart/rLogin-web3-react-connector/actions/workflows/ci.yml/badge.svg" alt="ci" />
   </a>
-  <a href="https://developers.rsk.co/rif/templates/">
-    <img src="https://img.shields.io/badge/-docs-brightgreen" alt="docs" />
-  </a>
   <a href="https://lgtm.com/projects/g/rsksmart/rLogin-web3-react-connector/context:javascript">
     <img src="https://img.shields.io/lgtm/grade/javascript/github/rsksmart/rLogin-web3-react-connector" />
   </a>
